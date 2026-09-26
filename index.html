@@ -4,71 +4,236 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Les Demois'ailes du Berger</title>
+  <meta name="description" content="Miel, œufs et produits de la ruche, locaux et naturels, de nos ruches et de nos poules.">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Bandeau principal -->
-  <header class="hero">
-    <h1>Les Demois'ailes du Berger</h1>
-    <p class="subtitle">Miel de nos ruches • Œufs frais de nos poules • Local • Naturel • Avec passion</p>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">Les Demois'ailes du Berger</div>
+      <nav class="menu">
+        <a href="#miels">Miels</a>
+        <a href="#ruche">Produits</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Section Miels -->
-  <section class="section bois">
-    <h2>Nos Miels – Pot de 250 g</h2>
-    <div class="grid">
-      <div class="card"><h3>Miel de printemps</h3><p class="price">5 €</p></div>
-      <div class="card"><h3>Miel d'été</h3><p class="price">5 €</p></div>
-      <div class="card"><h3>Miel de châtaignier</h3><p class="price">7 €</p></div>
-      <div class="card"><h3>Miel de colza</h3><p class="price">5 €</p></div>
-      <div class="card"><h3>Miel de tournesol</h3><p class="price">6 €</p></div>
-      <div class="card"><h3>Miel de sapin</h3><p class="price">7 €</p></div>
-      <div class="card"><h3>Miel de tilleul</h3><p class="price">6 €</p></div>
-      <div class="card"><h3>Miel d'acacia</h3><p class="price">7 €</p></div>
-      <div class="card"><h3>Miel de montagne</h3><p class="price">7,50 €</p></div>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="tag">Local • Naturel • Passion</span>
+          <h1>Des saveurs de terroir, directement de nos ruches.</h1>
+          <p>
+            Miel de nos abeilles, œufs frais de nos poules et produits de la ruche,
+            cultivés avec soin et respect du vivant.
+          </p>
+          <div class="buttons">
+            <a href="#miels" class="btn primary">Découvrir nos produits</a>
+            <a href="#contact" class="btn secondary">Commander</a>
+          </div>
+        </div>
 
-  <!-- Symphonie -->
-  <section class="section prairie">
-    <h2>La Symphonie des Deux Miels</h2>
-    <p class="intro">Édition limitée – Numérotée de 1 à 250</p>
-    <p class="highlight">Le cadeau idéal pour les amateurs de bons miels.</p>
-  </section>
+        <div class="hero-visual">
+          <img src="images/hero.svg" alt="Rucher et paysage de montagne">
+        </div>
+      </div>
+    </section>
 
-  <!-- Produits de la ruche -->
-  <section class="section bois">
-    <h2>Produits de la ruche</h2>
-    <div class="grid">
-      <div class="card"><h3>Pollen 50 g</h3><p class="price">4 €</p></div>
-      <div class="card"><h3>Pollen 125 g</h3><p class="price">7,50 €</p></div>
-      <div class="card"><h3>Sirop de propolis</h3><p class="price">10 €</p></div>
-      <div class="card"><h3>Propolis en spray</h3><p class="price">12 €</p></div>
-      <div class="card"><h3>Cuillère en bois</h3><p class="price">3,50 €</p></div>
-    </div>
-  </section>
+    <section class="features container">
+      <article class="feature-card">
+        <span>🐝</span>
+        <h3>Production locale</h3>
+        <p>Des miels récoltés près de chez nous, avec des fleurs du terroir.</p>
+      </article>
+      <article class="feature-card">
+        <span>🥚</span>
+        <h3>Œufs frais</h3>
+        <p>Poules élevées en plein air, nourries avec soin et respect.</p>
+      </article>
+      <article class="feature-card">
+        <span>🌿</span>
+        <h3>Nature & qualité</h3>
+        <p>Un mode de production simple, sain, fidèle à la tradition.</p>
+      </article>
+    </section>
 
-  <!-- Livres & Bonbons -->
-  <section class="section prairie">
-    <h2>Livres & Bonbons</h2>
-    <div class="grid">
-      <div class="card"><h3>Arnaud et les Demois'ailes</h3><p class="price">5 €</p></div>
-      <div class="card"><h3>Bonbons au miel</h3><p class="price">5 €</p></div>
-    </div>
-  </section>
+    <section id="miels" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Nos miels</p>
+          <h2>Des variétés pour chaque goût</h2>
+        </div>
 
-  <!-- Œufs -->
-  <section class="section bois">
-    <h2>Œufs frais de nos poules</h2>
-    <p class="intro">Poules élevées en plein air, nourries avec soin.<br>Du local, du vrai, du cœur.</p>
-  </section>
+        <div class="grid-products">
+          <article class="product-card">
+            <img src="images/miel-printemps.svg" alt="Miel de printemps">
+            <div class="product-info">
+              <h3>Miel de printemps</h3>
+              <p>Douceur florale, idéale pour le quotidien.</p>
+              <div class="product-footer">
+                <span class="price">5 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
 
-  <!-- Footer -->
+          <article class="product-card">
+            <img src="images/miel-ete.svg" alt="Miel d'été">
+            <div class="product-info">
+              <h3>Miel d'été</h3>
+              <p>Un goût généreux, lumineux et délicat.</p>
+              <div class="product-footer">
+                <span class="price">5 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="images/miel-chataignier.svg" alt="Miel de châtaignier">
+            <div class="product-info">
+              <h3>Miel de châtaignier</h3>
+              <p>Caractère boisé, pour les amateurs de goûts forts.</p>
+              <div class="product-footer">
+                <span class="price">7 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="images/miel-colza.svg" alt="Miel de colza">
+            <div class="product-info">
+              <h3>Miel de colza</h3>
+              <p>Texture légèrement crémeuse et très douce.</p>
+              <div class="product-footer">
+                <span class="price">5 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="images/miel-tournesol.svg" alt="Miel de tournesol">
+            <div class="product-info">
+              <h3>Miel de tournesol</h3>
+              <p>Notes ensoleillées, dorées et généreuses.</p>
+              <div class="product-footer">
+                <span class="price">6 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="images/miel-acacia.svg" alt="Miel d'acacia">
+            <div class="product-info">
+              <h3>Miel d'acacia</h3>
+              <p>Très doux, très fin, presque sans cristallisation.</p>
+              <div class="product-footer">
+                <span class="price">7 €</span>
+                <button>Commander</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ruche" class="section section-wood">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">La ruche</p>
+          <h2>Produits de la ruche</h2>
+        </div>
+
+        <div class="grid-products small-grid">
+          <article class="mini-card">
+            <img src="images/pollen.svg" alt="Pollen 50 g">
+            <h3>Pollen 50 g</h3>
+            <p>4 €</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/propolis.svg" alt="Propolis en spray">
+            <h3>Propolis spray</h3>
+            <p>12 €</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/cuillere.svg" alt="Cuillère en bois">
+            <h3>Cuillère en bois</h3>
+            <p>3,50 €</p>
+          </article>
+          <article class="mini-card">
+            <img src="images/poules.svg" alt="Œufs frais de nos poules">
+            <h3>Œufs frais</h3>
+            <p>À la demande</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-green">
+      <div class="container split">
+        <div class="content-block">
+          <p class="eyebrow">La Symphonie des Deux Miels</p>
+          <h2>Edition limitée, numérotée de 1 à 250</h2>
+          <p>
+            Un cadeau chic et gourmand, pensé pour les amoureux de bon miel et de beaux moments à table.
+          </p>
+          <a href="#contact" class="btn primary">Je veux le découvrir</a>
+        </div>
+        <div class="image-block">
+          <img src="images/rucher.svg" alt="Rucher en plein champ">
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Notre univers</p>
+          <h2>Un monde de fleurs, de ruches et de douceur</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="images/galerie-1.svg" alt="Photo de rucher 1">
+          <img src="images/galerie-2.svg" alt="Photo de rucher 2">
+          <img src="images/galerie-3.svg" alt="Photo de produits de la ruche">
+          <img src="images/galerie-4.svg" alt="Photo des poules et des œufs">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Commandez vos produits</h2>
+          <p>
+            Marchés locaux – Eghezée et environs<br>
+            Demandes de commandes et prestations sur mesure.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Votre nom">
+          <input type="email" placeholder="Votre email">
+          <textarea rows="4" placeholder="Votre message"></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer">
-    <p class="slogan">L'apiculteur, fournisseur de saveur, distributeur de bonheur.</p>
-    <p class="contact">Marchés locaux – Eghezée et environs</p>
+    <div class="container footer-inner">
+      <p>Les Demois'ailes du Berger</p>
+      <p>Les saveurs du terroir, naturellement.</p>
+    </div>
   </footer>
 
 </body>

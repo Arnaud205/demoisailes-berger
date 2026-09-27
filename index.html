@@ -3,42 +3,181 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Les Demois'ailes du Berger — miel artisanal et produits de la ruche à Eghezée.">
-  <title>Les Demois'ailes du Berger | Miel artisanal</title>
+  <meta name="description" content="Les Demois'ailes du Berger — miels artisanaux et produits de la ruche. Élevage responsable en Wallonie.">
+  <title>Les Demois'ailes du Berger | Miels artisanaux</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="logo" href="#top" aria-label="Accueil"><span class="logo-mark">✦</span><span>Les Demois'ailes<br><small>du Berger</small></span></a>
-      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-      <nav class="nav-links" aria-label="Navigation principale"><a href="#savoir-faire">Notre savoir-faire</a><a href="#produits">Produits</a><a href="#galerie">Galerie</a><a class="nav-cta" href="#contact">Nous contacter</a></nav>
+
+  <nav class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="#8b6f47" stroke-width="1"/><path d="M14 4v20M4 14h20" stroke="#8b6f47" stroke-width="1"/><circle cx="14" cy="14" r="2" fill="#c9a961"/></svg>
+        <span>Les Demois'ailes<br><small>du Berger</small></span>
+      </a>
+      <div class="nav">
+        <a href="#histoire">Notre histoire</a>
+        <a href="#produits">Produits</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact" class="btn-nav">Nous écrire</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <main id="top">
-    <section class="hero"><div class="container hero-grid"><div class="hero-copy"><p class="kicker">Apiculteurs & producteurs locaux</p><h1>Le miel, quand il est fait avec <em>cœur.</em></h1><p class="hero-text">Des produits authentiques, récoltés et préparés avec soin à Eghezée. Le goût simple et généreux de notre terroir.</p><a class="button button-dark" href="#produits">Découvrir nos produits <span>↗</span></a></div><div class="hero-photo"><img src="FB_IMG_1790332406615.jpg" alt="Production de miel des Demois'ailes du Berger"><div class="photo-note"><span>✦</span> Récolté localement</div></div></div></section>
+  <main>
 
-    <section class="trust-bar"><div class="container trust-grid"><div><strong>100%</strong><span>naturel</span></div><div><strong>Local</strong><span>à Eghezée</span></div><div><strong>Avec soin</strong><span>du rucher au pot</span></div><div><strong>Direct</strong><span>du producteur</span></div></div></section>
+    <section class="hero">
+      <div class="hero__image">
+        <img src="FB_IMG_1790332406615.jpg" alt="Pot de miel artisanal" loading="lazy">
+      </div>
+      <div class="hero__content">
+        <p class="eyebrow">Apiculteurs & producteurs</p>
+        <h1>Le miel comme<br>il devrait être</h1>
+        <p>Artisanal. Authentique. Du terroir wallon.</p>
+        <a href="#produits" class="btn btn-primary">Découvrir →</a>
+      </div>
+    </section>
 
-    <section id="savoir-faire" class="section intro"><div class="container intro-grid"><div><p class="kicker">Notre histoire</p><h2>Le vrai goût des choses bien faites.</h2></div><div class="intro-text"><p>Chez nous, chaque pot raconte une saison, un paysage et le travail patient de milliers d'abeilles. Nous privilégions une production à taille humaine et le respect du vivant.</p><a class="text-link" href="#contact">Parler avec nous <span>→</span></a></div></div></section>
+    <section id="histoire" class="story">
+      <div class="story__content">
+        <div class="story__text">
+          <p class="eyebrow">Qui nous sommes</p>
+          <h2>Une passion familiale pour le miel</h2>
+          <p>Depuis des années, nous cultivons une relation simple et honnête avec nos abeilles. Pas de raccourcis, pas de compromis. Juste le travail patient de produire quelque chose de beau et de bon.</p>
+          <p>Chaque pot raconte une saison, un paysage, et le labeur de milliers d'abeilles.</p>
+        </div>
+        <div class="story__image">
+          <img src="FB_IMG_1790332434729.jpg" alt="Production artisanale de miel" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-    <section id="produits" class="section products"><div class="container"><div class="section-head"><div><p class="kicker">La boutique</p><h2>Nos incontournables</h2></div><p>Des produits simples, bons et faits près de chez vous.</p></div><div class="product-grid">
-      <article class="product-card product-featured"><div class="product-image"><img src="FB_IMG_1790332416516.jpg" alt="Pot de miel artisanal"><span class="badge">Le préféré</span></div><div class="product-body"><div><h3>Miel artisanal</h3><p>Un miel généreux aux notes florales, récolté dans nos ruches.</p></div><strong class="price">Sur commande</strong></div></article>
-      <article class="product-card"><div class="product-image"><img src="FB_IMG_1790332434729.jpg" alt="Produit de la ruche"><span class="badge">Rucher</span></div><div class="product-body"><div><h3>Produits de la ruche</h3><p>Pollen, propolis et autres trésors naturels.</p></div><strong class="price">Sur commande</strong></div></article>
-      <article class="product-card"><div class="product-image"><img src="FB_IMG_1790332449161.jpg" alt="Produits locaux"><span class="badge">Local</span></div><div class="product-body"><div><h3>Œufs frais</h3><p>Des œufs frais, disponibles selon la ponte.</p></div><strong class="price">Sur commande</strong></div></article>
-    </div></div></section>
+    <section class="values">
+      <div class="values__grid">
+        <div class="value">
+          <div class="value__icon">🐝</div>
+          <h3>100% Naturel</h3>
+          <p>Aucun additif, aucun traitement. Juste la nature dans sa pureté.</p>
+        </div>
+        <div class="value">
+          <div class="value__icon">🌿</div>
+          <h3>Éthique</h3>
+          <p>Le bien-être de nos abeilles est notre priorité.</p>
+        </div>
+        <div class="value">
+          <div class="value__icon">🏘️</div>
+          <h3>Local</h3>
+          <p>Produit en Wallonie. Connaître son producteur, c'est important.</p>
+        </div>
+      </div>
+    </section>
 
-    <section class="quote"><div class="container"><p>« De la nature à votre table, sans détour. »</p></div></section>
+    <section id="produits" class="products">
+      <div class="section__header">
+        <p class="eyebrow">La sélection</p>
+        <h2>Nos miels & produits</h2>
+      </div>
 
-    <section id="galerie" class="section gallery-section"><div class="container"><div class="section-head"><div><p class="kicker">En images</p><h2>Notre univers</h2></div><p>Quelques instants de notre quotidien.</p></div><div class="gallery"><img class="gallery-tall" src="FB_IMG_1790332483893.jpg" alt="Les produits des Demois'ailes du Berger"><img src="FB_IMG_1790332406615.jpg" alt="Notre production locale"><img src="FB_IMG_1790332416516.jpg" alt="Le travail au rucher"><img src="FB_IMG_1790332434729.jpg" alt="Nos produits artisanaux"><img class="gallery-wide" src="FB_IMG_1790332458269.jpg" alt="La vie autour du rucher"><img src="FB_IMG_1790332449161.jpg" alt="Produits frais locaux"></div></div></section>
+      <div class="products__grid">
+        <article class="product">
+          <div class="product__image">
+            <img src="FB_IMG_1790332416516.jpg" alt="Miel de printemps" loading="lazy">
+          </div>
+          <div class="product__info">
+            <h3>Miel d'automne</h3>
+            <p>Notes florales généreuses et couleur dorée. Le charme d'une belle saison.</p>
+            <span class="product__price">Sur commande</span>
+          </div>
+        </article>
 
-    <section id="contact" class="section contact"><div class="container contact-box"><div><p class="kicker">Une question ?</p><h2>Venez goûter<br><em>la différence.</em></h2><p class="contact-copy">Pour connaître les disponibilités ou passer commande, écrivez-nous. Nous vous répondrons avec plaisir.</p><div class="contact-detail"><span>📍</span><span>Eghezée et environs<br><small>Retrait local sur rendez-vous</small></span></div></div><form class="contact-form" action="mailto:arnaud.t0205@gmail.com" method="post" enctype="text/plain"><label>Votre nom<input type="text" name="nom" required></label><label>Votre adresse e-mail<input type="email" name="email" required></label><label>Votre message<textarea name="message" rows="4" required></textarea></label><button class="button button-dark" type="submit">Envoyer le message <span>↗</span></button></form></div></section>
+        <article class="product">
+          <div class="product__image">
+            <img src="FB_IMG_1790332449161.jpg" alt="Miel de châtaignier" loading="lazy">
+          </div>
+          <div class="product__info">
+            <h3>Miel d'été</h3>
+            <p>Plus foncé, plus corsé. Pour ceux qui aiment les saveurs affirmées.</p>
+            <span class="product__price">Sur commande</span>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product__image">
+            <img src="FB_IMG_1790332483893.jpg" alt="Produits de la ruche" loading="lazy">
+          </div>
+          <div class="product__info">
+            <h3>Pollen & Propolis</h3>
+            <p>Trésor naturel de la ruche. En petit pot, tout ce qui nourrit.</p>
+            <span class="product__price">Sur commande</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="galerie" class="gallery">
+      <div class="section__header">
+        <p class="eyebrow">Notre univers</p>
+        <h2>En images</h2>
+      </div>
+
+      <div class="gallery__grid">
+        <figure class="gallery__item gallery__item--large">
+          <img src="FB_IMG_1790332406615.jpg" alt="Le rucher" loading="lazy">
+        </figure>
+        <figure class="gallery__item">
+          <img src="FB_IMG_1790332416516.jpg" alt="Détails" loading="lazy">
+        </figure>
+        <figure class="gallery__item">
+          <img src="FB_IMG_1790332434729.jpg" alt="Récolte" loading="lazy">
+        </figure>
+        <figure class="gallery__item gallery__item--large">
+          <img src="FB_IMG_1790332458269.jpg" alt="Saison" loading="lazy">
+        </figure>
+        <figure class="gallery__item">
+          <img src="FB_IMG_1790332449161.jpg" alt="Produits" loading="lazy">
+        </figure>
+        <figure class="gallery__item">
+          <img src="FB_IMG_1790332483893.jpg" alt="Détails" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__content">
+        <div class="contact__text">
+          <p class="eyebrow">Restons en contact</p>
+          <h2>Vous avez une question ?</h2>
+          <p>Pour connaître les disponibilités, passer commande ou simplement discuter de miel — écrivez-nous. Nous vous répondrons avec plaisir.</p>
+          <div class="contact__info">
+            <p><strong>📍 Eghezée</strong> et alentours</p>
+            <p><strong>🚚 Retrait</strong> sur rendez-vous</p>
+          </div>
+        </div>
+
+        <form class="contact__form" action="mailto:arnaud.t0205@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="nom" placeholder="Votre nom" required>
+          <input type="email" name="email" placeholder="Votre e-mail" required>
+          <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
   </main>
-  <footer><div class="container footer-wrap"><a class="logo" href="#top"><span class="logo-mark">✦</span><span>Les Demois'ailes<br><small>du Berger</small></span></a><p>Le goût authentique du terroir wallon.</p><p>© 2026</p></div></footer>
-  <script>const toggle=document.querySelector('.nav-toggle'),nav=document.querySelector('.nav-links');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',open)});document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));</script>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="#" class="logo">
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="13" stroke="white" stroke-width="1"/><path d="M14 4v20M4 14h20" stroke="white" stroke-width="1"/><circle cx="14" cy="14" r="2" fill="white"/></svg>
+        <span>Les Demois'ailes du Berger</span>
+      </a>
+      <p>Le goût authentique du terroir wallon.</p>
+      <p class="footer__year">© 2026</p>
+    </div>
+  </footer>
+
 </body>
 </html>
